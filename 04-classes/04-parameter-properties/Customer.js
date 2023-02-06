@@ -1,8 +1,8 @@
 "use strict";
 class Customer {
-    constructor(theFirst, theLast) {
-        this._firstName = theFirst;
-        this._lastName = theLast;
+    constructor(_firstName, _lastName) {
+        this._firstName = _firstName;
+        this._lastName = _lastName;
     }
     get firstName() {
         return this._firstName;
